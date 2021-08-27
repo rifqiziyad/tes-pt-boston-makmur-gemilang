@@ -1,0 +1,112 @@
+.container {
+  padding: 0;
+  padding-top: 58px;
+}
+
+.welcome {
+  padding: 60px 40px;
+  color: white;
+  background: linear-gradient(to right, #063363 20%, #056d8a 50%);
+}
+
+.welcome h1,
+.welcome h3 {
+  font-weight: 700;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search input {
+  margin-top: 40px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 88%;
+  border: none;
+  outline: none;
+}
+
+.search button {
+  margin-top: 40px;
+  width: 10%;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #59d6f8, #01b4e4);
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+
+.search button:hover {
+  box-shadow: #063363 5px 5px 10px;
+}
+
+.navPopular {
+  padding: 30px 40px 10px;
+  display: flex;
+}
+
+.navPopular h4 {
+  margin: 0 30px 0 0;
+}
+
+.navPopular div {
+  border: #0d253f solid 1px;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 20px;
+}
+
+.navPopular div button {
+  padding: 2px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: #0d253f;
+  font-weight: 700;
+}
+
+.navPopular div button.btnPopular {
+  background-color: #0d253f;
+  color: #39d4ff;
+}
+
+.cardMovie {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.cardMovie .card {
+  margin-right: 20px;
+}
+
+.cardMovie .card img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.cardMovie .card h5 {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cardMovie .card h6 {
+  font-size: 16px;
+  color: #7a7a7a;
+  font-weight: 200;
+}
+
+.card:hover,
+.card:hover h5,
+.card:hover h6 {
+  cursor: pointer;
+}
+
+.card:hover h5 {
+  color: #01b4e4;
+}
